@@ -7,10 +7,10 @@ public class ContaTerminal {
         String nomeCliente = "Ramon";
         double saldo = 237.48;
 
-        System.out.println("Por favor, digite o número da Agência !");
+        System.out.println("Por favor, digite o número da Agência!");
         int numeroAgencia = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Por favor, digite o número da Conta !");
+        System.out.println("Por favor, digite o número da Conta!");
         String numeroConta = scanner.nextLine();
         scanner.close();
 
